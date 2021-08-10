@@ -1,0 +1,13 @@
+.header-bar-container {
+  background-color: var(--oxford-blue);
+  height: 3.75rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0rem 8rem;
+
+  .logo {
+    width: 7rem;
+  }
+}
