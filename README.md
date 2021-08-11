@@ -1,6 +1,7 @@
 # README
 
-Please view this as an answer to the questions asked at the bottom of the assessment but also as a guide to help get it up an running on your local machine.\
+Please view this as an answer to the questions asked at the bottom of the assessment but also as a guide to help get it up an running on your local machine.
+
 The instructions to run it will be at the bottom of this file.
 
 ## How long did this assignment take you and where did you spend your time?
