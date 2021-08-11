@@ -5,7 +5,8 @@ The instructions to run it will be at the bottom of this file.
 
 ## How long did this assignment take you and where did you spend your time?
 
-This assignment took me about 6 to 7 hours of development time.\
+This assignment took me about 6 to 7 hours of development time.
+
 Where I mostly spent my time was on the assets - logo, fonts etc.
 
 Also on the boilerplate of adding **Redux** and state management to the app.
