@@ -6,8 +6,9 @@ The instructions to run it will be at the bottom of this file.
 ## How long did this assignment take you and where did you spend your time?
 
 This assignment took me about 6 to 7 hours of development time.\
-Where I mostly spent my time was on the assets - logo, fonts etc.\
-Also on the boilerplate of adding **Redux** and state management to the app.\
+Where I mostly spent my time was on the assets - logo, fonts etc.
+
+Also on the boilerplate of adding **Redux** and state management to the app.
 
 Adding state management was overkill but I used it as a future proofing way or creating the app. At anytime should other pages or more things need to be added, they can leverage the already existing structure.
 
@@ -18,7 +19,8 @@ The contents is also not a component so I would definitely also try make it a st
 
 ## Do you have any feedback on this assignment? For example: What did you enjoy? What could be better? Which aspects were unclear?
 
-The logo and fonts used in the designs were hard to find, I think it would have been nice to have them be provided/exported for the image.\
+The logo and fonts used in the designs were hard to find, I think it would have been nice to have them be provided/exported for the image.
+
 The fonts on the other hand are not free, so I had to settle for a different close lookign font, I used **Montserrat**, **Lato** would also have worked I think.
 
 I also was not familiar with **Figma** and it took me a while just to get the correct colors on the different elements
