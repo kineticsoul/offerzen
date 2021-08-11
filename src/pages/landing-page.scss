@@ -58,6 +58,15 @@
           }
         }
 
+        &.unread {
+
+          .row-column {
+            p {
+              font-weight: 600;
+            }
+          }
+        }
+
         .row-column {
           .toggle-archive {
             border: none;

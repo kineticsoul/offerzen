@@ -59,7 +59,7 @@ const LandingPage = () => {
             </div>
 
             {data.map((item, i) =>
-              <div key={i} className={`content-row table-row ${item.archived ? 'archived' : ''} ${showArchived ? 'show-archived' : ''}`}>
+              <div key={i} className={`content-row table-row ${item.archived ? 'archived' : ''} ${showArchived ? 'show-archived' : ''} ${item.last_comms.unread ? 'unread' : ''}`}>
                 <div className='row-column'>
                   <img className='profile-icon' src={item.image} alt='profile'/>
                   <p>{item.candidate}</p>
