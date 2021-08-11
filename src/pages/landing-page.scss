@@ -13,6 +13,8 @@
     background-color: var(--athens-gray);
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
 
+
+
     .table-row {
       display: flex;
       flex-direction: row;
@@ -29,6 +31,12 @@
         justify-content: flex-start;
         width: 20%;
 
+        &.archive {
+          width: 5%;
+          justify-content: flex-end;
+          padding: 0px 1rem;
+        }
+
         p {
           margin: 0;
           color: var(--oxford-blue);
@@ -40,7 +48,23 @@
         background-color: var(--clear-white);
         border-bottom: 2px solid var(--catskill-white);
 
+        &.archived {
+          background-color: var(--athens-gray);
+          display: none;
+
+          &.show-archived {
+            display: flex;
+            width: inherit;
+          }
+        }
+
         .row-column {
+          .toggle-archive {
+            border: none;
+            background-color: transparent;
+            color: var(--scooter);
+          }
+
           .profile-icon {
             width: 2rem;
             height: 2rem;
@@ -69,5 +93,4 @@
       }
     }
   }
-
 }

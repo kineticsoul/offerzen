@@ -1,0 +1,28 @@
+.search-bar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem 8rem;
+  background-color: var(--clear-white);
+  align-items: center;
+  height: 3.75rem;
+
+  .search {
+    height: 2rem;
+    border: 1px solid var(--mystic);
+    border-radius: 3px;
+    padding: 0.5rem 0.7rem;
+    width: 15rem;
+  }
+
+  .checkbox-label {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+
+    input[type="checkbox"i] {
+      border: 1px solid red;
+    }
+  }
+
+}
