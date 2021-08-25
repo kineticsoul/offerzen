@@ -21,7 +21,7 @@ const SearchBar = () => {
     if (event.target.value === '') {
       dispatch(loadData());
     } else {
-      dispatch(doSearch(event.target.value));
+      dispatch(doSearch(event.target.value.toLowerCase()));
     }
   }
 

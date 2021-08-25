@@ -25,7 +25,7 @@ const reducer = (state = initialState, action) => {
       // performing a search by candidate name
     case DO_SEARCH:
       const newArray = [...state.data]; 
-      const filteredData =  newArray.filter(item => item.candidate.includes(action.payload));
+      const filteredData =  newArray.filter(item => item.candidate.toLowerCase().includes(action.payload));
       console.log('Filteed data', filteredData);
       
       return { 
